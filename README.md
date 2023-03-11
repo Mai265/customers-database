@@ -21,12 +21,15 @@ The script manages user data <br>
  
 ## Give x-permission to run the script
 ```
-[x@server ~]# chmod   a+x   db.sh
+[root@server ~]# chmod   a+x   db.sh
+[root@server ~]# chmod   a+x   checker.sh
+[root@server ~]# chmod   a+x   dbops.sh
+[root@server ~]# chmod   a+x   printmsgs.sh
 ```
 
 ## Run the script
 ```
-[x@server ~]# ./db.sh 
+[root@server ~]# ./db.sh 
 ```
 ## Output
 ```
